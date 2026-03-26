@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get a free roof inspection and estimate from RoofEdge. Contact us today for premium roofing services.">
+  <title>Contact Us - Free Estimate | RoofEdge</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <img src="https://images.unsplash.com/photo-1683029096295-7680306aa37d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=100" alt="RoofEdge Logo" width="32" height="32">
+        <span>RoofEdge</span>
+      </a>
+      <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="tel:5550130ROOF" class="phone-link">
+          <span>📞</span>
+          <span>(555) 013-ROOF</span>
+        </a>
+        <a href="contact.html" class="btn btn-primary">Get Free Estimate</a>
+        <a href="emergency-repair.html" class="btn btn-secondary btn-small">Emergency 24/7</a>
+      </div>
+      <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" style="background: var(--gradient-primary); min-height: 400px;">
+    <div class="container">
+      <div class="hero-content" style="max-width: 700px; text-align: center; margin: 0 auto; color: white;">
+        <h1 style="color: white;">Get Your Free Roof Estimate</h1>
+        <p class="hero-subtitle" style="color: rgba(255,255,255,0.9);">
+          Professional inspection, accurate quote, and transparent pricing. We respond within 15 minutes during business hours.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-2" style="gap: 4rem;">
+        <!-- Contact Info -->
+        <div class="fade-in-on-scroll">
+          <h2>Get In Touch</h2>
+          <p>Whether you need a roof replacement, repair, or just have questions, we're here to help.</p>
+
+          <div style="margin: 3rem 0;">
+            <div style="margin-bottom: 2rem;">
+              <h4>📞 Phone</h4>
+              <p><a href="tel:5550130ROOF" style="color: var(--color-primary); font-size: 1.25rem; font-weight: bold;">(555) 013-ROOF</a></p>
+              <p style="font-size: 0.875rem; color: var(--color-gray);">Mon-Fri: 8am - 5pm | Sat: 9am - 3pm | Emergency: 24/7</p>
+            </div>
+
+            <div style="margin-bottom: 2rem;">
+              <h4>✉️ Email</h4>
+              <p><a href="mailto:hello@roofedge.com" style="color: var(--color-primary);">hello@roofedge.com</a></p>
+              <p style="font-size: 0.875rem; color: var(--color-gray);">We respond to all emails within 24 hours</p>
+            </div>
+
+            <div style="margin-bottom: 2rem;">
+              <h4>📍 Service Area</h4>
+              <p>Austin, Dallas, Houston, San Antonio, Fort Worth, and surrounding Texas communities</p>
+            </div>
+          </div>
+
+          <div class="card" style="background: var(--color-light-gray); border: none;">
+            <h4>⚡ Quick Response Guarantee</h4>
+            <p>We respond within 15 minutes during business hours. For emergencies, we dispatch crews within 2 hours, 24/7.</p>
+          </div>
+        </div>
+
+        <!-- Estimate Form -->
+        <div class="card fade-in-on-scroll">
+          <h3>Request Free Estimate</h3>
+          <p style="margin-bottom: 2rem;">Fill out the form below and we'll contact you shortly to schedule your free inspection.</p>
+
+          <form>
+            <div class="form-group">
+              <label for="name" class="form-label">Full Name *</label>
+              <input type="text" id="name" class="form-input" required placeholder="John Smith">
+            </div>
+
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone Number *</label>
+              <input type="tel" id="phone" class="form-input" required placeholder="(555) 123-4567">
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address *</label>
+              <input type="email" id="email" class="form-input" required placeholder="john@example.com">
+            </div>
+
+            <div class="form-group">
+              <label for="address" class="form-label">Property Address *</label>
+              <input type="text" id="address" class="form-input" required placeholder="123 Main St, Austin, TX 78701">
+            </div>
+
+            <div class="form-group">
+              <label for="service" class="form-label">Service Needed *</label>
+              <select id="service" class="form-select" required>
+                <option value="">Select a service</option>
+                <option value="replacement">Roof Replacement</option>
+                <option value="repair">Roof Repair</option>
+                <option value="inspection">Inspection Only</option>
+                <option value="emergency">Emergency Repair</option>
+                <option value="commercial">Commercial Roofing</option>
+                <option value="metal">Metal Roofing</option>
+                <option value="maintenance">Maintenance</option>
+                <option value="other">Other / Not Sure</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="roof-photo" class="form-label">Upload Roof Photo (Optional)</label>
+              <input type="file" id="roof-photo" class="form-input form-file" accept="image/*">
+              <p class="form-hint">Help us prepare for your inspection by uploading a photo of your roof</p>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Additional Details</label>
+              <textarea id="message" class="form-textarea" rows="4" placeholder="Tell us about your project, concerns, or questions..."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="timeline" class="form-label">Project Timeline</label>
+              <select id="timeline" class="form-select">
+                <option value="asap">As soon as possible</option>
+                <option value="month">Within 1 month</option>
+                <option value="3months">Within 3 months</option>
+                <option value="planning">Just planning / researching</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">Submit Request</button>
+
+            <p style="text-align: center; margin-top: 1.5rem; font-size: 0.875rem; color: var(--color-gray);">
+              By submitting, you agree to our <a href="privacy-policy.html" style="color: var(--color-primary);">Privacy Policy</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Area Map -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our Service Area</h2>
+        <p class="section-description">Proudly serving residential and commercial customers across Texas</p>
+      </div>
+
+      <div class="grid grid-2">
+        <div class="fade-in-on-scroll">
+          <img src="images/map.jpg" alt="Texas service area map" loading="lazy" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-md); width: 100%;">
+          <!-- Image: Map of Texas with highlighted service areas -->
+        </div>
+        <div class="fade-in-on-scroll">
+          <h3>Cities & Communities We Serve</h3>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 2rem;">
+            <div>
+              <h4 style="font-size: 1rem; margin-bottom: 1rem;">Austin Metro</h4>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 0.5rem; color: var(--color-gray);">• Austin</li>
+                <li style="margin-bottom: 0.5rem; color: var(--color-gray);">• Round Rock</li>
+                <li style="margin-bottom: 0.5rem; color: var(--color-gray);">• Cedar Park</li>
+                <li style="margin-bottom: 0.5rem; color: var(--color-gray);">• Pflugerville</li>
+              </ul>
+            </div>
+            <div>
+              <h4 style="font-size: 1rem; margin-bottom: 1rem;">DFW Metro</h4>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 0.5rem; color: var(--color-gray);">• Dallas</li>
+                <li style="margin-bottom: 0.5rem; color: var(--color-gray);">• Fort Worth</li>
+                <li style="margin-bottom: 0.5rem; color: var(--color-gray);">• Plano</li>
+                <li style="margin-bottom: 0.5rem; color: var(--color-gray);">• Arlington</li>
+              </ul>
+            </div>
+            <div>
+              <h4 style="font-size: 1rem; margin-bottom: 1rem;">Houston Metro</h4>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 0.5rem; color: var(--color-gray);">• Houston</li>
+                <li style="margin-bottom: 0.5rem; color: var(--color-gray);">• The Woodlands</li>
+                <li style="margin-bottom: 0.5rem; color: var(--color-gray);">• Sugar Land</li>
+                <li style="margin-bottom: 0.5rem; color: var(--color-gray);">• Katy</li>
+              </ul>
+            </div>
+            <div>
+              <h4 style="font-size: 1rem; margin-bottom: 1rem;">San Antonio</h4>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 0.5rem; color: var(--color-gray);">• San Antonio</li>
+                <li style="margin-bottom: 0.5rem; color: var(--color-gray);">• New Braunfels</li>
+                <li style="margin-bottom: 0.5rem; color: var(--color-gray);">• Boerne</li>
+                <li style="margin-bottom: 0.5rem; color: var(--color-gray);">• Seguin</li>
+              </ul>
+            </div>
+          </div>
+          <p style="margin-top: 2rem;">Don't see your city? <a href="tel:5550130ROOF" style="color: var(--color-primary); font-weight: bold;">Call us</a> - we may still serve your area!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Prefer to Talk?</h2>
+      <p>Call us now for immediate assistance and same-day quotes.</p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+        <a href="tel:5550130ROOF" class="btn btn-white btn-large">📞 Call (555) 013-ROOF</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="https://images.unsplash.com/photo-1683029096295-7680306aa37d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=100" alt="RoofEdge Logo" width="32" height="32">
+            <span>RoofEdge</span>
+          </div>
+          <p class="footer-tagline">Built Strong. Finished Clean.</p>
+          <p class="footer-tagline">Premium roofing services for residential and commercial properties across Texas.</p>
+          <div class="social-links">
+            <a href="#" class="social-icon"><img src="https://images.unsplash.com/photo-1662070479020-73f77887c87c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=20" alt="Facebook" width="20" height="20"></a>
+            <a href="#" class="social-icon"><img src="https://images.unsplash.com/photo-1611262588024-d12430b98920?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=20" alt="Instagram" width="20" height="20"></a>
+            <a href="#" class="social-icon"><img src="https://images.unsplash.com/photo-1611944212129-29977ae1398c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=20" alt="LinkedIn" width="20" height="20"></a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="projects.html">Projects</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Services</h4>
+          <div class="footer-links">
+            <a href="roof-replacement.html">Roof Replacement</a>
+            <a href="emergency-repair.html">Emergency Repair</a>
+            <a href="commercial-roofing.html">Commercial Roofing</a>
+            <a href="services.html#metal">Metal Roofing</a>
+            <a href="services.html#inspection">Roof Inspection</a>
+            <a href="financing.html">Financing</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <div class="footer-contact">
+            <p><strong>Phone:</strong><br>(555) 013-ROOF</p>
+            <p><strong>Email:</strong><br>hello@roofedge.com</p>
+            <p><strong>Hours:</strong><br>Mon-Fri: 8am - 5pm<br>Sat: 9am - 3pm<br>Emergency: 24/7</p>
+          </div>
+        </div>
+      </div>
+      <div class="certifications">
+        <div class="cert-badge"><img src="https://images.unsplash.com/photo-1761178334144-9715e83bf64b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=24" alt="BBB" width="24" height="24"><span>BBB A+ Rated</span></div>
+        <div class="cert-badge"><img src="https://images.unsplash.com/photo-1633544325196-bcf8bf81ead0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=24" alt="GAF" width="24" height="24"><span>GAF Master Elite</span></div>
+        <div class="cert-badge"><img src="https://images.unsplash.com/photo-1701009711394-abd8ff7e8b6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=24" alt="Owens Corning" width="24" height="24"><span>Owens Corning Preferred</span></div>
+        <div class="cert-badge"><img src="https://images.unsplash.com/photo-1668849267438-d6bf4a69ea67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=24" alt="Insured" width="24" height="24"><span>Licensed & Insured</span></div>
+      </div>
+      <div class="footer-bottom">
+        <div class="copyright">© 2026 RoofEdge. All rights reserved.</div>
+        <div class="footer-legal">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-of-service.html">Terms of Service</a>
+          <a href="warranty-policy.html">Warranty Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="mobile-sticky-bar">
+    <a href="tel:5550130ROOF" class="btn btn-secondary" style="flex: 1;">Call Now</a>
+    <a href="#" class="btn btn-primary" style="flex: 1;" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">Submit Form</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
